@@ -3,22 +3,23 @@
 2) C++
 
 3) 273
-'''sh
+```sh
 
 find . -type f | wc -l
 273 
-'''
+```
 
 4) 2,7M  .
-'''sh
+
+```sh
 
 du -sh .
 2,7M	.
-'''
+```
 
 5) cpp 360612, hpp 508160, h 61742, cxx -, py 30871, pl -, php -, java -, cs -, rb -, rs -, hs -
 
-'''sh
+```sh
 
 find . -type f -name "*.cpp" -ls | awk '{sum+=$7} END {print sum}'
 360612
@@ -48,43 +49,43 @@ find . -type f -name "*.rs" -ls | awk '{sum+=$7} END {print sum}'
 
 find . -type f -name "*.hs" -ls | awk '{sum+=$7} END {print sum} 
 pipe quote> 
-'''
+```
 
 6) Файл есть
-'''sh
+```sh
 
 find . -name ".clang-format"
-'''
+```
 
 7) Каталога нет
 
 8) 0
-'''sh
+```sh
 
 grep -irl "socket" . | wc -l
 0
-'''
+```
 
 9) 8
-'''sh
+```sh
 
 grep -irl "select" . | wc -l
 8
-'''
+```
 
 10) 2
-'''sh
+```sh
 
 grep -ir -e "intel" -e "google" -e "microsoft" . | wc -l 
 2
-'''
+```
 
 11) Файл есть
-'''sh
+```sh
 
 find . -type f -name "LICENSE" 
 ./LICENSE
-'''
+```
 12) Файл LICENSE имеется
 
 
