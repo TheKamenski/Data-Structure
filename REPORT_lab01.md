@@ -1,12 +1,14 @@
 ## Homework
-1)
+
+
+1) Скачиваем библиотеку *boost*
 
 ```sh
 wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz     
 ```
 done
 
-2) 
+2) Разархивируем скаченный файл
 
 ```sh
 tar -xf boost_1_69_0.tar.gz 
